@@ -1,0 +1,15 @@
+---
+description: "Java Redis Cache — Spring Data Redis configuration for Maven multi-module services"
+summary: >
+  Renders RedisConfig.java into the server module's cache package.
+  Consumed as a library by Java service archetypes.
+  Requires spring-boot-starter-data-redis in the server module's pom.xml.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "java", "cache", "redis", "spring-data-redis"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
